@@ -112,13 +112,12 @@ header {
 }
 
 .container {
-  width: 95%;
-  max-width: 1200px;
-  margin: 0 auto;
-  /* Bug #23: display should flex */
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
   gap: 20px;
 }
+
 
 .dashboard {
   flex: 1;
